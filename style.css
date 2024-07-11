@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jost-myfont {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    overflow: hidden;
+    position: relative;
+    background-color: #202c36;
+}
+
+#page1{
+    /* background-color: red; */
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 20vh;
+    width: 100vw;
+    /* background-color: yellow; */
+}
+
+#page1>nav>img{
+    width: 20%;
+    padding: 20px 20px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: #0b47ed15;
+    color: #fff;
+    font-size: 15px;
+}
+
+.bottom-page1{
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    height: 40vh;
+    width: 50vw;
+    /* background-color: red; */
+}
+.bottom-page1>h1{
+    font-size: 6vw;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+}
+.bottom-page1-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35%;
+    width: 100%;
+    /* padding: 0px 30px; */
+    /* background-color: blueviolet; */
+    position: absolute;
+    bottom: 0%;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+}
+.bottom-page1-inner>button{
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: #0b47ed15;
+    color: #fff;
+    font-size: 16px;
+}
+.bottom-page1-inner>h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+#page2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+    padding: 0vw 8vw;
+    color: #fff;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #4a7077
+}
+
+#page2>h2{
+    font-weight: 300;
+    font-size: 2.3vw;
+}
+#page2>h1{
+    font-weight: 400;
+    line-height: 1.1;
+    width: 90%;
+    color: #ffffff75;
+    font-size: 3.7vw;
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(1, 23, 41);
+    position: relative;
+}
+
+#page3>canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+}
+
+#page4{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #4a7077;
+    font-family: "Jost", sans-serif;
+}
+
+#page4>h3{
+    margin-left: 15vw;
+    font-weight: 300;
+    font-size: 2.3vw;
+    color: #ffffff;
+}
+
+#page4>h1{
+    margin-left: 15vw;
+    font-weight: 400;
+    line-height: 1.1;
+    width: 70%;
+    color: #ffffff94;
+    font-size: 3.7vw
+
+}
+
+#page5{
+    height: 100vh;
+    width: 100vw;
+    background-color: #202c36;
+    position: relative;
+}
+#page5>canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+#page6{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #4a7077;
+}
+
+.page6-inner{
+    background-color: #4a7077;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page6-inner>h1{
+    font-size: 5vw;
+    font-weight: 600;
+}
+.page6-inner>p{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
